@@ -1,4 +1,2 @@
-[build]
-  command = "npm run build"
-  publish = "build/"
-  functions = "functions/"
+[template.environment]
+NEXT_PUBLIC_MEDUSA_BACKEND_URL="https://stream-commerce-backend.herokuapp.com"

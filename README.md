@@ -1,162 +1,147 @@
-Any queries or guidance, can reach me at 
-<a href="https://discord.gg/4G7zbcpt" target="blank" rel="noopener noreferrer" aria-label="Click to Discord">Discord</a>
+<p align="center">
+  <a href="https://www.medusajs.com">
+    <img alt="Medusa" src="https://user-images.githubusercontent.com/7554214/153162406-bf8fd16f-aa98-4604-b87b-e13ab4baf604.png" width="100" />
+  </a>
+</p>
 
-# What is Svelte Commerce?
+<h1 align="center">
+  Medusa Next.js Starter
+</h1>
 
-- Svelte Commerce is a PWA storefront for your existing eCommerce based on Sveltekit.
-- It is possible to connect with any eCommerce backend that provides an API
-- We are working on adaptors of Medusajs, Shopify, Magento, Woocommerce, Litekart, Bigcommerce
+<p align="center">
+Medusa is an open-source headless commerce engine that enables developers to create amazing digital commerce experiences.
+</p>
 
-<a href="https://litekart.in/" aria-label="Click to browse litekart">
-<img src="https://repository-images.githubusercontent.com/213575283/f577b8bd-8edb-41ba-bfe5-36e65072e1f2" alt/>
-</a>
+<p align="center">
+  <a href="https://github.com/stream-protocol/commerce-platform/blob/master/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="Medusa is released under the MIT license." />
+  </a>
+  <a href="https://github.com/stream-protocol/commerce-platform/blob/master/CONTRIBUTING.md">
+    <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
+  </a>
+  <a href="https://discord.gg/xpCwq3Kfn8">
+    <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
+  </a>
+  <a href="https://twitter.com/intent/follow?screen_name=medusajs">
+    <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Follow%20@medusajs" alt="Follow @medusajs" />
+  </a>
+</p>
 
-<a href="https://litekart.in/" aria-label="Click to browse litekart">
-<img src="https://res.cloudinary.com/itswadesh/image/upload/v1678600224/litekart/free_for_developers_1.png" alt/>
-</a>
+> **Prerequisites**: To use the starter you should have a Medusa server running locally on port 9000. Check out [medusa-starter-default](https://github.com/stream-protocol/commerce-platform-starter-default) for a quick setup.
 
-![version](https://img.shields.io/badge/node-v16.x-blue.svg)
-![Branch stable](https://img.shields.io/badge/stable%20branch-master-blue.svg)
-![Typescript](https://img.shields.io/badge/TS-Typescript-blue)
-<br />
+# Overview
 
-<!-- <a href="https://codenx.slack.com" target="blank" rel="noopener noreferrer" aria-label="Click to browse codenx">![Branch Develop](https://img.shields.io/badge/community%20chat-slack-FF1493.svg?style=for-the-badge&logo=Slack&logoColor=white)</a> -->
+![next-starter](https://user-images.githubusercontent.com/45367945/182571697-a68c502f-5844-4eea-8735-7683f775ac8b.png)
 
-<a href="https://t.me/itswadesh" target="blank" rel="noopener noreferrer" aria-label="Click to browse twitter account">![Branch Develop](https://img.shields.io/badge/Telegram%20Message-%2300AFF0.svg?style=for-the-badge&logo=Telegram&logoColor=white)</a>
-![Branch Develop](https://res.cloudinary.com/itswadesh/image/upload/v1656864555/open-to-work.svg)
+The Medusa Next.js Starter is built with:
 
-- Demo <a href="https://demo.litekart.in/" target="blank" rel="noopener noreferrer">demo.litekart.in</a>
-- Svelte commerce in home made FNB sector https://food.misiki.in/ (https://github.com/itswadesh/homefood)
-- Svelte commerce in jewellery industry https://varnijewels.com/
-- Svelte commerce in fashion industry https://next.trialshot.com/
-- Svelte commerce in toys industry https://tablez.com/
-- Svelte commerce in mobile cover customization https://next.zapvi.in/
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Medusa](https://medusajs.com/)
 
-- I can make your existing ecommerce fast and scalable with fastest possible time
+# Quickstart
 
-- Portfolio <a href="https://itswadesh.com/" target="blank" rel="noopener noreferrer" aria-label="Click to browse portfolio website">itswadesh.com</a>
-  <br/>
+## Deploy in 5 minutes
 
-- 🛍️ Attach Svelte store front to <a href="https://admin.litekart.in/" aria-label="Click to brouse svelte store front"> Litekart </a> and your complete ecommerce tech stack becomes free.
-- 👥 The demo uses litekart as backend
-- 👨🏻‍💻 Its both SSR and SPA
-- 🚀 Superfast
-- 🔗 It is possible to connect with any eCommerce backend if the backend has Rest API
-- 🔓 Svelte Commerce is free and open source. Download and modify it the way you want
-- 🛒 Most of the essential features for ecommerce are already integrated
-- 🕒 Save hours of development time setting up an ecommerce store front
-- 💰 No need to make a big leap or invest huge amount. Just take this opend source project and attach to existing backend.
-- 🐛 If you have discovered a bug or have feature suggestion, feel free to create/join a discussion on Github.
-- 👍 I have been supporting this project alone since 2019. Any little code contribution will be appreciated
-- ✨ Deployment to Netlify or Vercel with zero-configuration
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/medusajs/nextjs-starter-medusa)
 
-|                                                                                                                                           |                                                                                                                                             |                                                                                                                                           |
-| :---------------------------------------------------------------------------------------------------------------------------------------- | :-----------------------------------------------------------------------------------------------------------------------------------------: | ----------------------------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://res.cloudinary.com/itswadesh/image/upload/c_scale,f_auto,w_250/v1627577152/sveltekit/svelte-commerce-home.png" alt=""/> | <img src="https://res.cloudinary.com/itswadesh/image/upload/c_scale,f_auto,w_250/v1627577152/sveltekit/svelte-commerce-detail.png" alt=""/> | <img src="https://res.cloudinary.com/itswadesh/image/upload/c_scale,f_auto,w_250/v1627577154/sveltekit/svelte-commerce-cart.png" alt=""/> |
+## Setting up the environment variables
 
-# Latest Updates
+Navigate into your projects directory and get your enviroment variables ready:
 
-## Update 07-February-2023
-
-- 07-February-2023 - Prettified.
-- 06-February-2023 - Sveltekit 1.5
-- 15-December-2022 - Sveltekit 1.0 - Finally.
-- 05-December-2022 - fix: Close message
-- 30-November-2022 - Fixed: Coupon apply and remove, Added: Back to top fade animation
-- 29-November-2022 - Improved image lazy loading technique
-- 29-November-2022 - Added Price and Discount filters to product catalog
-- 29-November-2022 - Preload data on link hover
-- 25-November-2022 - Service worker added
-- 10-November-2022 - Product options introduced
-- 04-November-2022 - Added verify pincode / zip
-- 03-November-2022 - New slider added for more control over design
-- 02-November-2022 - Cleanup unused packages
-- 31-October-2022 - Dynamic searchbat text
-- 31-October-2022 - Added title, description, keywords
-- 27-October-2022 - Improved megamenu layout
-- 24-October-2022 - fix: login, order success, failed payment, frequently bought together
-- 20-October-2022 - Sentry added
-- 20-October-2022 - Zero-configuration Coolify deployment
-- 16-October-2022 - SEO attributes Added
-- 11-October-2022 - Add to cart animation
-- 30-September-2022 - Attached to ResT API Backend, Migrated to new Sveltekit version
-- 12-September-2022 - Modal based mobile device search instead of page based
-- 12-September-2022 - New fully working theme launched
-- 04-September-2022 - Product schema Added
-- 26-August-2022 - Added Trending Products section
-- 26-April-2022 - Latest SvelteKit version
-- 26-April-2022 - Improved image lazy loading
-- 26-April-2022 - New Banners section
-- 26-April-2022 - New Authentication System
-- 26-April-2022 - New Blogs section
-- 24-April-2022 - Zero-configuration Vercel deployment
-- 22-July-2021 - Integrated with netlify deployment
-- 07-May-2021 - Completely Migrated to SvelteKit
-
-# Installation
-
-Install - [NodeJS](https://nodejs.org/en/) - [Yarn](https://yarnpkg.com/en/) - [Git](https://git-scm.com/)
-
-## To start Development
-
-```
-git clone https://github.com/itswadesh/svelte-commerce.git
-cd svelte-commerce
-npm i
-cp .env.example .env    # You will need to update the values in this .env file
-npm run dev
+```shell
+cd nextjs-starter-medusa/
+mv .env.template .env.local
 ```
 
-Thats all !
+### Install dependencies
 
-Open http://localhost:3000 on chrome. Your app should be live with awesome sveltekit up and running
+Use Yarn to install all dependencies.
 
-# Configurations
+```shell
+yarn
+```
 
-If required change `config/index.ts` according to your requirement
+### Start developing
 
-# Deployment
+You are now ready to start up your project.
 
-Click on the button to directly deploy to Netlify or Vercel. Zero configuration required.
+```shell
+yarn dev
+```
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/itswadesh/svelte-commerce" aria-label="Click to deploy into netlify">
-<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to netlify">
-</a>
+### Open the code and start customizing
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fitswadesh%2Fsvelte-commerce&demo-title=SvelteKit%20Commerce)
+Your site is now running at http://localhost:8000!
 
-# Features
+Edit `/pages/index.tsx` to see your site update in real-time!
 
-- Awesome shiny new SvelteKit
-- Typescript for rock solid app
-- TailwindCSS Integrated
-- Server Rendered
-- Proxy + API integrated
-- Lazy loading images
-- Animations (Page transition)
-- Login
-- Cart & Checkout
-- Settings from database
-- Stores
-- SEO optimized pages
-- Carousel (Slider)
-- Toasts (Notifications)
-- Loading Indicators
-- Componentized Checkbox, Radio, Textbox
-- Instant Search
-- Faceted filters
-- API calls
-- Skeletons
-- Responsive
+# Payment integrations
 
-# Contributing
+By default this starter supports the following payment integrations
 
-If you like the ideas behind Svelte Commerce and want to become a contributor - join github discussions, check the list of the active issues or contact me directly via swadesh@litekart.in
+- [Stripe](https://stripe.com/)
+- [Paypal](https://www.paypal.com/)
 
-Svelte ecommerce - Headless, Authentication, Cart & Checkout, TailwindCSS, Server Rendered, Proxy + API Integrated, Animations, Lazy Loading, Loading Indicators, Carousel, Instant Search, Faceted Filters, Open Source
+To enable the integrations you need to add the following to your `.env.local` file:
 
-# Support
-- Twitter: [@itswadesh](https://twitter.com/itswadesh)
-- Telegram: [@itswadesh](https://t.me/itswadesh)
-- Email: swadesh@litekart.in
-- Discord: [Invitation](https://discord.gg/4G7zbcpt)
+```shell
+NEXT_PUBLIC_STRIPE_KEY=<your-stripe-public-key>
+NEXT_PUBLIC_PAYPAL_CLIENT_ID=<your-paypal-client-id>
+```
+
+You will also need to setup the integrations in your Medusa server. See the [Medusa documentation](https://docs.medusajs.com) for more information on how to configure [Stripe](https://docs.medusajs.com/add-plugins/stripe) and [PayPal](https://docs.medusajs.com/add-plugins/paypal) in your Medusa project.
+
+# Search integration
+
+This starter is configured to support using the `medusa-search-meilisearch` plugin out of the box. To enable search you will need to enable the feature flag in `./store-config.json`, which you do by changing the config to this:
+
+```json
+{
+  "features": {
+    "search": true
+  }
+}
+```
+
+Before you can search you will need to install the plugin in your Medusa server, for a written guide on how to do this – [see our documentation](https://docs.medusajs.com/add-plugins/meilisearch).
+
+The search components in this starter are developed with Algolia's `react-instant-search-hooks-web` library which should make it possible for you to seemlesly change your search provider to Algoli instead of MeiliSearch.
+
+To do this you will need to add `algoliasearch` to the project, by running
+
+```shell
+yarn add algoliasearch
+```
+
+After this you will need to switch the current MeiliSearch `SearchClient` out with a Alogolia client. To do this update `@lib/search-client`.
+
+```ts
+import algoliasearch from "algoliasearch/lite"
+
+const appId = process.env.NEXT_PUBLIC_SEARCH_APP_ID || "test_app_id" // You should add this to your environment variables
+
+const apiKey = process.env.NEXT_PUBLIC_SEARCH_API_KEY || "test_key"
+
+export const searchClient = algoliasearch(appId, apiKey)
+
+export const SEARCH_INDEX_NAME =
+  process.env.NEXT_PUBLIC_INDEX_NAME || "products"
+```
+
+After this you will need to set up Algolia with your Medusa server, and then you should be good to go. For a more thorough walkthrough of using Algolia with Medusa – [see our documentation](https://docs.medusajs.com/add-plugins/algolia), and the [documentation for using `react-instantsearch-hooks-web`](https://www.algolia.com/doc/guides/building-search-ui/getting-started/react-hooks/).
+
+# Resources
+
+## Learn more about Medusa
+
+- [Website](https://www.medusajs.com/)
+- [GitHub](https://github.com/medusajs)
+- [Documentation](https://docs.medusajs.com/)
+
+## Learn more about Next.js
+
+- [Website](https://nextjs.org/)
+- [GitHub](https://github.com/vercel/next.js)
+- [Documentation](https://nextjs.org/docs)
